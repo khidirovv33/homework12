@@ -2,6 +2,33 @@
     margin: 0;
     font-family: sans-serif;
 }
+
+@mixin backgraund-color{
+background-color: #094B72;
+color: white;
+}
+@mixin center{
+ display: flex; 
+ flex-direction: column;
+ justify-content: start; 
+ align-items: start; 
+ gap: 20px;
+}
+
+@mixin start{
+ display: flex; 
+flex-direction: column;
+gap: 30px;
+}
+
+@mixin araund{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -13,19 +40,22 @@
     font-family: sans-serif;
     gap: 10px;
 }
+
+
 .logo{
-     display: flex;
+    @include backgraund-color;
+      display: flex;
      justify-content: center;
     align-items: center;    
     font-size: 15px;
-background-color: #094B72;
-color: white;
-width: 20px;
+    width: 20px;
 padding: 5px;
 border-radius: 50%;
 }
+
 .lawliet{
     font-size: 20px;
+    color: #094B72;
 }
 
 .center-menu{
@@ -33,4 +63,67 @@ border-radius: 50%;
     list-style: none;
     gap: 40px;
     font-size: 13px;
+}
+.text-cont1 p{
+   @include backgraund-color;
+    padding: 8px 20px;
+   width: 40px; 
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+}
+.text-cont1 span{
+  color: #094B72;
+}
+.text-cont1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #E7F6FF;
+    padding: 10px;
+    border-radius: 20px;
+    width: 430px;
+    z-index: 2;
+}
+.btn-cont1 button                                               {
+@include backgraund-color; 
+@include center; 
+background-color: none; 
+padding: 20px;
+font-size: 12px;
+border-radius: 5px;
+}
+.container1{
+
+    @include araund;
+ display: flex;
+ padding-bottom: 128px;
+}
+.text2-cont1{
+    color: #094B72;
+    font-size: 40px;
+    
+}
+.text3-cont1{
+    font-size: 20px;
+}
+.cont-conter1{
+     @include start;   
+}
+.img-cont1 img{
+    position: absolute;
+right: 10px;
+top: 10px;
+   width: 700px;
+   height: auto;
+   z-index: 1;
+}
+.finish-cont1{
+      @include center; 
+      margin-top: 100px;
+
+}
+.finish-cont1 p{
+    color: rgba(0, 0, 0, 0.526);
 }
