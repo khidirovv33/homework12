@@ -127,3 +127,86 @@ top: 10px;
 .finish-cont1 p{
     color: rgba(0, 0, 0, 0.526);
 }
+.tablichka{
+    position: absolute;
+left: 65%;
+top: 830px;
+display: flex;
+flex-direction: column;
+text-align: center;
+background-color: white;  
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.266);
+padding: 20px;
+width: 300px;
+gap: 10px;
+border-radius: 10px;
+z-index: 2;
+}
+.tablichka h1{
+    font-size: 20px;
+    font-weight: 100;
+}
+.tablichka p{
+    font-size: 12px;
+}
+.container2{
+    background-color: #F2F7FF;
+    display: flex
+}
+.text-cont2{
+     @include araund; 
+    @include center; 
+}
+
+@mixin card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 30px;
+    h1{
+        font-size: 20px;
+    }
+    p{
+        color: rgba(0, 0, 0, 0.478);
+    }
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.367);
+    border-radius: 10px;
+}
+.container2{
+    display: flex;
+   justify-content: space-around;
+   justify-content: center;
+   align-items: center
+}
+.section2{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+  
+
+
+
+
+.block-card1{
+     @include card;  
+}
+.block-card2{
+     @include card;  
+}
+.block-card3{
+     @include card;  
+}
+.block-card4{
+     @include card;  
+}
+
+.block-conter2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   gap: 20px;
+}
