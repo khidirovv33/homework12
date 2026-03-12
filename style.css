@@ -173,6 +173,7 @@
   justify-content: space-around;
   justify-content: center;
   align-items: center;
+  padding-bottom: 100px;
 }
 
 .section2 {
@@ -263,4 +264,139 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+
+.container3 {
+  background-color: #F2F7FF;
+}
+
+.section3 {
+  background-color: #094B72;
+  color: white;
+}
+
+.text-block3 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+
+.text2-block3 {
+  padding-top: 50px;
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.text-block3 {
+  padding: 40px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-block3 h1 {
+  font-size: 50px;
+}
+
+.text-block3 p {
+  font-size: 20px;
+}
+
+.container4 {
+  background-color: #F5F9FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.conter-text4 {
+  padding: 100px 0;
+  font-size: 60px;
+}
+
+.text-block4 {
+  background-image: url("Card.png");
+  background-size: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: auto;
+}
+
+.text-block04 {
+  background-image: url("Card.png");
+  background-size: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: auto;
+}
+
+.conter-block4 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 20px;
+}
+
+.text-block4 span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.text-block4 p {
+  font-size: 15px;
+}
+
+.text-block04 span {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.text-block04 p {
+  font-size: 15px;
+}
+
+.img-anya {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 50%;
+}
+
+.block-img-anya {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-anya img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.anya1 h1 {
+  font-size: 20px;
+}
+
+.anya1 {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.anya1 p {
+  color: rgba(0, 0, 0, 0.648);
 }/*# sourceMappingURL=style.css.map */
