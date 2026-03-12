@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.menu-logo{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 10px;
+}
+.logo{
+     display: flex;
+     justify-content: center;
+    align-items: center;    
+    font-size: 15px;
+background-color: #094B72;
+color: white;
+width: 20px;
+padding: 5px;
+border-radius: 50%;
+}
+.lawliet{
+    font-size: 20px;
+}
+
+.center-menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 13px;
+}
