@@ -324,3 +324,99 @@ align-items: center ;
 .anya1 p{
     color: rgba(0, 0, 0, 0.648);
 }
+.container5{
+    background-color: rgb(243, 243, 243);
+    padding: 30px 0;
+}
+.block-cont5{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+.btn-cont5{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+@include backgraund-color;
+width: 200px;
+padding: 5px 0;
+border-radius: 5px;
+cursor: pointer;
+
+}
+.btn-cont5:hover{
+    background-color: rgb(76, 76, 75);
+    transform: scale(1.05);
+}
+.cont-conter5{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont-conter6{
+  background-color: #094B72;
+width: 100%;
+display: flex;
+justify-content: space-around;
+gap: 300px;
+padding: 100px 0;
+}
+
+.finish-text6{
+    display: flex;
+    align-items: start;
+
+    gap: 10px;
+}
+
+
+.footer1{
+background-color: white;
+    color: #094B72;
+      display: flex;
+     justify-content: center;
+    align-items: center;    
+    font-size: 15px;
+    width: 20px;
+padding: 5px;
+border-radius: 50%;
+}
+.fotter2{
+    color: white;
+}
+.fotter-blocks{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  gap: 200px;
+
+}
+.foot-block1{
+      @include center;
+      color: white;
+      p{
+        font-size: 20px;
+        font-weight: 600;
+      }
+      span{
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.666);
+      }
+}
+.footer3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #014369;
+    color: rgba(255, 255, 255, 0.71);
+    padding: 10px 0;
+    font-size: 13px;
+    gap: 200px;
+}
